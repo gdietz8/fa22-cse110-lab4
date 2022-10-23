@@ -32,3 +32,6 @@
 - E. The output is **`false`**. This is because true maps to 1 to complete the expression and 1 is not equal to 2.
 - F. The output is **`true`**. This is because Boolean(2) evaluated to true and is equal to true. The Boolean() conversion returns true when converting a number.
 15. The difference between the `==` and `===` operators is that `==` converts different types of operands to numbers, and `===` checks the equality without type conversion. For example, `0 == false` evaluates to true because false is mapped to 0, but `0 === false` because the operands are different types.
+16. see [here](part2-question16.js)
+17. **[2, 4, 6] is returned.** This is the result because in each iteration of the for loop in `modifyArray`, the function `doSomething` is called and as a result the current value at index `i` in array is multiplied by 2 and this value is added to `newArr`. `modifyArray` returns `newArray` after the for loop has finished iterating.
+18. see [here](part2-question18.js)
