@@ -35,3 +35,8 @@
 16. see [here](part2-question16.js)
 17. **[2, 4, 6] is returned.** This is the result because in each iteration of the for loop in `modifyArray`, the function `doSomething` is called and as a result the current value at index `i` in array is multiplied by 2 and this value is added to `newArr`. `modifyArray` returns `newArray` after the for loop has finished iterating.
 18. see [here](part2-question18.js)
+19. The output is: </br>
+  **1</br>
+  4</br>
+  3</br>
+  2**
